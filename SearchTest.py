@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import os
 from selenium import webdriver
 #import chromedriver_binary  # Adds chromedriver binary to path
-
+#######
 chromedriver = "C:/Users/DenT/Downloads/chromedriver.exe"
 driver = webdriver.Chrome(chromedriver)
 # https://selenium-python.readthedocs.io/waits.html#implicit-waits
