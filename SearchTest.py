@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 
-chromedriver = "C:/Users/DenT/Downloads/chromedriver.exe"
+chromedriver = "./chromedriver.exe"
 
 driver = webdriver.Chrome(chromedriver)
 
@@ -57,5 +57,6 @@ def test_Top5Tensor():
 
     assert len(res) > 5
 
-    driver.close()
+driver.quit()
+driver.close()
 
