@@ -17,8 +17,8 @@ driver.get("https://yandex.ru")
 
 
 def test_Textbox():
-    locator = (By.CSS_SELECTOR,
-               '.search2__input')
+    #locator = (By.CSS_SELECTOR,'.search2__input')
+    locator = (By.ID, 'text')
     timeout = 10  # время ожидания
     elements = WebDriverWait(driver, timeout).until(EC.visibility_of_element_located(locator))
     assert elements
@@ -57,6 +57,5 @@ def test_Top5Tensor():
 
     assert len(res) > 5
 
-driver.quit()
-driver.close()
+
 
