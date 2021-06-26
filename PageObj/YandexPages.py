@@ -1,4 +1,4 @@
-from PageObj.BaseApp import BasePage
+from PageObj.Functions import BasePage
 from PageObj.Locators import YandexSeacrhLocators
 
 
