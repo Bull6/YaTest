@@ -1,4 +1,5 @@
 import pytest
+import pytest_html
 from selenium import webdriver
 
 @pytest.fixture(scope="session")

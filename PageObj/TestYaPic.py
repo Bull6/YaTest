@@ -1,5 +1,4 @@
 from PageObj.YandexPages import SearchHelper
-from PageObj.Locators import YandexSeacrhLocators
 from PageObj.Locators import YandexImageLocators
 
 

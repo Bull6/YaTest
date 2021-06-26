@@ -24,7 +24,7 @@ class BasePage:
 
     def filter_urls(self, loop, urls):
         filtredURLS = []
-        for url in urls:
+        for url in urls[:5]:
             filtredURLS.append(url.get_attribute('href'))
         filtred = list(filter(lambda x: loop in x, filtredURLS))
         return filtred

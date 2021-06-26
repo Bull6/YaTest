@@ -11,7 +11,7 @@ class YandexSeacrhLocators:
     LOCATOR_YANDEX_SEARCH_TABLE = (By.CSS_SELECTOR, ".content__left")
 
     #For_test_Top5Tensor
-    LOCATOR_YANDEX_SEARCH_TENSOR = (By.PARTIAL_LINK_TEXT, "tensor")
+    LOCATOR_YANDEX_SEARCH_TENSOR = (By.CSS_SELECTOR, ".OrganicTitle-Link")
 
 class YandexImageLocators:
     #For_test_PicIcon
