@@ -1,6 +1,8 @@
 # YaTest
 
-**Chromedriver для версии Google Chrome 91, для других версий загрузите [драйвер](https://chromedriver.chromium.org/downloads) с поддержкой вашей версии Google Chrome**
+**Chromedriver расположен в корневой папке проекта**  
+**Chromedriver установлен для версии Google Chrome 91, для других версий загрузите [драйвер](https://chromedriver.chromium.org/downloads) с поддержкой вашей версии Google Chrome**
+
 
 ### Сценарий поиск в яндексе
 Для начала тестирования поиска в яндексе запустите python файл SearchTest.py  
