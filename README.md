@@ -1,8 +1,5 @@
 # YaTest
 
-**Chromedriver расположен в корневой папке проекта**  
-**Chromedriver установлен для версии Google Chrome 91, для других версий загрузите [драйвер](https://chromedriver.chromium.org/downloads) с поддержкой вашей версии Google Chrome**
-
 
 ### Сценарий поиск в яндексе
 Для начала тестирования поиска в яндексе запустите python файл SearchTest.py  
@@ -24,3 +21,6 @@
 
 ### Page Object Pattern  
 Релизация паттерна выполненна в отдельной директории. Для выполнения тестов, запустите файлы TestYaSearch.py *(Сценарий поиска в яндекс)* и TestYaPic.py *(Сценарий картинки на яндексе)*
+
+**Chromedriver расположен в корневой папке проекта**  
+**Chromedriver установлен для версии Google Chrome 91, для других версий загрузите [драйвер](https://chromedriver.chromium.org/downloads) с поддержкой вашей версии Google Chrome**
